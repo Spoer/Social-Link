@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Social Link](https://github.com/Spoer/Social-Link)
+- Live Site URL: [Social Link](https://spoer.github.io/Social-Link/)
 
 ## My process
 
