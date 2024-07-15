@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.photo img {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.profile h1 {
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.description p {
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+}
+
+.social input[type="button"] {
+    background-color: hsl(0, 0%, 20%);
+    border: 0;
+    height: 50px;
+    margin: 7px 0;
+    font-weight: 800;
+    border-radius: 7px;
+}
+
+.social input[type="button"]:last-child {
+    margin-bottom: 0;
+}
+
+.social input[type="button"]:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 0%, 8%);
+}
+
+@media (max-width: 600px) {
+    .card {
+        width: 90vw;
+        margin: 10px;
+    }
+
+    p, h1, h3, input[type="button"] {
+        font-size: 0.9em;
+    }
+
+    .social input[type="button"] {
+        height: 40px;
+    }
+    
+}
